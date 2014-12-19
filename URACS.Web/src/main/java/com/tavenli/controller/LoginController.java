@@ -29,7 +29,6 @@ public class LoginController {
 	
 	@RequestMapping(value = { "/login", "/ulogin" })
 	public String login() {
-
 		return "login";
 
 	}
